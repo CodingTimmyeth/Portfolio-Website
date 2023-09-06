@@ -11,6 +11,7 @@ import { AiFillGithub } from "react-icons/ai";
 import { FaGitAlt } from "react-icons/fa";
 import { BiLogoFirebase } from "react-icons/bi";
 import { SiRedux } from "react-icons/si";
+import Divider from "../Divider";
 
 const Skills = () => {
   const languages = [
@@ -92,10 +93,11 @@ const Skills = () => {
       shadow: "shadow-purple-500/50",
     },
   ];
+
   return (
-    <section className="mt-10 text-start" id="skills">
+    <section className="text-start" id="skills">
       <h1 className="text-2xl mb-4">Skills:</h1>
-      <div className="flex flex-wrap items-center justify-center gap-14">
+      <div className="flex flex-wrap items-center justify-center gap-14 mb-10">
         {languages.map((language) => (
           <div
             key={language.name}
@@ -108,6 +110,7 @@ const Skills = () => {
           </div>
         ))}
       </div>
+      <Divider />
     </section>
   );
 };

@@ -11,6 +11,7 @@ export default {
         'AccentBlue': '#3498DB',
         'ButtonColor': '#27AE60',
         'SubText': '#A3A3A3',
+        'LightGray': '#D9D9D9'
       }
     },
   },
