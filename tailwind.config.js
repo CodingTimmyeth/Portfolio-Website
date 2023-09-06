@@ -9,7 +9,8 @@ export default {
       colors: {
         'bodyBg': '#232931',
         'AccentBlue': '#3498DB',
-        'ButtonColor': '#27AE60'
+        'ButtonColor': '#27AE60',
+        'SubText': '#A3A3A3',
       }
     },
   },

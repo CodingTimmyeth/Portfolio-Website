@@ -4,7 +4,7 @@ const MenuItems = ({ opened, items }) => {
   return (
     <div className="flex flex-col text-md">
       {!opened && (
-        <div className="absolute right-0 top-8 min-w-[275px] rounded-xl shadow-md shadow-black">
+        <div className="absolute right-0 top-8 min-w-[275px] rounded-xl shadow-md shadow-black z-10 bg-bodyBg">
           {items.map((item) => (
             <div
               key={item}

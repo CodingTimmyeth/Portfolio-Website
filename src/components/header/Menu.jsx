@@ -4,11 +4,10 @@ import { VscChromeClose } from "react-icons/vsc";
 import MenuItems from "./MenuItems";
 
 const Menu = ({ items }) => {
-  const [opened, setOpened] = useState(false);
+  const [opened, setOpened] = useState(true);
 
   const handleOpenedMenu = () => {
     setOpened(!opened);
-    console.log(opened);
   };
 
   return (
